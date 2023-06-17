@@ -67,6 +67,7 @@ const CharacterList = () => {
     };
 
     filterCharacters();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [characters, searchName, searchGender, searchBirthYear]);
 
   const handleNextPage = () => {
