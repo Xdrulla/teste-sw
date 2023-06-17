@@ -16,6 +16,7 @@ const CharacterItem = ({ character }) => {
       </Link>
         <p>Gênero: {character.gender}</p>
         <p>Numero de filmes: {character.films.length}</p>
+        <p>Ano de aniversário:{character.birth_year}</p>
 
     </li>
   );
